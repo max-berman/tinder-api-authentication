@@ -4,7 +4,7 @@ Create an authentication mechanism that can obtain facebook access token to be u
 
 Preference is given to the full front-end solution mixed with node.js/express proxi.
 
-Once the token obtained store it in the local storage.
+Once token is retrieved, store it in the local storage.
 
 Use this repo to bootstrap the task.
 
