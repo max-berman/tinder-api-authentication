@@ -1,4 +1,4 @@
-## UpWork Task
+## UpWork Task - Authenticate Tinder API using FB Access token
 
 Create an authentication mechanism that can obtain facebook access token to be used for authentication with Tinder based app - http://tindhancer.com/
 
