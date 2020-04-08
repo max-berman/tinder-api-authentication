@@ -1,8 +1,12 @@
 ## UpWork Task
 
-Create a utility that would be able to grab facebook access token to be used for authentication with Tinder based app and store it in the local storage.
+Create an authentication mechanism that can obtain facebook access token to be used for authentication with Tinder based app - http://tindhancer.com/
 
 Preference is given to the full front-end solution mixed with node.js/express proxi.
+
+Once the token obtained store it in the local storage.
+
+Use this repo to bootstrap the task.
 
 To test the correct access Token place it as into the POST body:
 
