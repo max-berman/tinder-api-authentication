@@ -9,13 +9,12 @@ Preference is given to the following solution
 
 - Given I am on a “Home Page” of TindHancer.com
 - And I am the existing Tinder's User
-- When I click on “Login With Facebook”
-- Then I expect to see a pop up - [confirmation window](https://www.facebook.com/v2.6/dialog/oauth?redirect_uri=fb464891386855067%3A%2F%2Fauthorize%2F&scope=user_birthday%2Cuser_photos%2Cuser_education_history%2Cemail%2Cuser_relationship_details%2Cuser_friends%2Cuser_work_history%2Cuser_likes&response_type=token%2Csigned_request&client_id=464891386855067&ret=login&fallback_redirect_uri=221e1158-f2e9-1452-1a05-8983f99f7d6e&ext=1556057433&hash=Aea6jWwMP_tDMQ9y) - `You previously logged in to Tinder with Facebook.Would you like to continue?`
+- When I click on `Login With Facebook`
+- Then I expect to see a pop up - [confirmation window](https://www.facebook.com/v2.6/dialog/oauth?redirect_uri=fb464891386855067%3A%2F%2Fauthorize%2F&scope=user_birthday%2Cuser_photos%2Cuser_education_history%2Cemail%2Cuser_relationship_details%2Cuser_friends%2Cuser_work_history%2Cuser_likes&response_type=token%2Csigned_request&client_id=464891386855067&ret=login&fallback_redirect_uri=221e1158-f2e9-1452-1a05-8983f99f7d6e&ext=1556057433&hash=Aea6jWwMP_tDMQ9y) - `You previously logged in to Tinder with Facebook. Would you like to continue?`
 - When I hit OK there will be a POST request to [confirm](https://www.facebook.com/v2.9/dialog/oauth/confirm/)
-- The body of the the response of POST request will contain Token 
+- The BODY of the the response of POST request will contain Token 
 - Parse the BODY for 'access_token' in the response
-
-Once token is retrieved, store it in the local storage.
+- Once token is retrieved, store it in the local storage.
 
 To test the correct access Token place it as into the POST body:
 
