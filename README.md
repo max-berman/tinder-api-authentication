@@ -3,7 +3,7 @@
 Create an authentication mechanism that can obtain facebook access token to be used for authentication with Tinder based app - http://tindhancer.com/
 
 Preference is given to the following solution
-![image](image.png | width=300)
+![image](image.png){:height="70%"}
 
 Once token is retrieved, store it in the local storage.
 
