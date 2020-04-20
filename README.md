@@ -3,11 +3,9 @@
 Create an authentication mechanism that can obtain facebook access token to be used for authentication with Tinder based app - http://tindhancer.com/
 
 Preference is given to the following solution
-![image](image.png)
+![image](image.png | width=300)
 
 Once token is retrieved, store it in the local storage.
-
-Use this repo to bootstrap the task.
 
 To test the correct access Token place it as into the POST body:
 
