@@ -39,11 +39,7 @@ to get simular response:
 
 ### Helpful Links & Resorses
 
-[Documentation for Tinder's API](https://github.com/fbessez/Tinder/issues/69#issuecomment-579924643)
-
-[tinder-access-token-generator](https://github.com/jaebradley/tinder-access-token-generator#readme)
-
-[Tinder-token](https://github.com/philipperemy/Deep-Learning-Tinder/blob/master/tinder_token.py)
+[Getting access token](https://gist.github.com/taseppa/66fc7239c66ef285ecb28b400b556938)
 
 [Tinder web based app](https://tinder.com/)
 
