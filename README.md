@@ -15,6 +15,8 @@ Preference is given to the following solution
 - The BODY of the the response of POST request will contain Token 
 - Parse the BODY for 'access_token' in the response
 - Once token is retrieved, store it in the local storage.
+- Sniff only requests coming from facebook.com 
+- As soon as the token is retrieved cancel all further sniffing
 
 To test the correct access Token place it as into the POST body:
 
